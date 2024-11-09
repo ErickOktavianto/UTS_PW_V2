@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="profil.css">
+    <title>WebPribadi | Home</title>
+    <script type="text/javascript" src="app.js" defer></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <div class="container">
+
+        <!-- Header nav -->
+
+        <div class="header">
+            <button onclick=toggleSidebar() id="toggleSidebar"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></button>
+            <h1>Website<span>PRIBADI</span></h1>
+        </div>
+        
+        <!-- Sidebar -->
+        <div  id="sidebar" class="sidebar">
+            <aside>
+                <ul>
+                    <li class="first">
+                        <p class="logo">Website<span>PRIBADI</span></p>
+                    </li>
+                    <li class="active"><a href="index.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M240-200h120v-240h240v240h120v-360L480-740 240-560v360Zm-80 80v-480l320-240 320 240v480H520v-240h-80v240H160Zm320-350Z"/></svg>
+                        <span>Home</span>
+                    </a></li>
+                    <li><a href="profil.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z"/></svg>
+                        <span>Profile</span>
+                    </a></li>
+                    <li><a href="bukutamu.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e8eaed"><path d="M560-564v-68q33-14 67.5-21t72.5-7q26 0 51 4t49 10v64q-24-9-48.5-13.5T700-600q-38 0-73 9.5T560-564Zm0 220v-68q33-14 67.5-21t72.5-7q26 0 51 4t49 10v64q-24-9-48.5-13.5T700-380q-38 0-73 9t-67 27Zm0-110v-68q33-14 67.5-21t72.5-7q26 0 51 4t49 10v64q-24-9-48.5-13.5T700-490q-38 0-73 9.5T560-454ZM260-320q47 0 91.5 10.5T440-278v-394q-41-24-87-36t-93-12q-36 0-71.5 7T120-692v396q35-12 69.5-18t70.5-6Zm260 42q44-21 88.5-31.5T700-320q36 0 70.5 6t69.5 18v-396q-33-14-68.5-21t-71.5-7q-47 0-93 12t-87 36v394Zm-40 118q-48-38-104-59t-116-21q-42 0-82.5 11T100-198q-21 11-40.5-1T40-234v-482q0-11 5.5-21T62-752q46-24 96-36t102-12q58 0 113.5 15T480-740q51-30 106.5-45T700-800q52 0 102 12t96 36q11 5 16.5 15t5.5 21v482q0 23-19.5 35t-40.5 1q-37-20-77.5-31T700-240q-60 0-116 21t-104 59ZM280-494Z"/></svg>
+                        <span>Guest Book</span>
+                    </a></li>
+                </ul>
+            </aside>
+        </div>
+        
+        <!-- Konten -->
+
+        <div class="content">
+            <div class="content-header">
+                <h1>PROFILE</h1>
+            </div>
+            <div class="content-table">
+                <table border="1" cellpading="10">
+                    <tr>
+                        <td class="aktif" colspan="2"><h1>MY PROFILE</h1></td>
+                        <td rowspan="9"><img class="img-table"  src="IMG/pasfoto.jpg" alt="" width="310px" height="420px"></td>
+                    </tr>
+                    <tr style="background-color: #686868;">
+                        <td width="100px">Nama</td>
+                        <td width="300px">Erick Oktavianto</td>
+                        
+                    </tr>
+                    <tr style="background-color: #bebebe;">
+                        <td width="100px">Nim</td>
+                        <td width="300px">2411500048</td>
+                    </tr>
+                    <tr style="background-color: #686868;">
+                        <td width="100px">Prodi</td>  
+                        <td width="300px">Teknik Informatika</td>
+                    </tr>
+                    <tr style="background-color: #bebebe;">
+                        <td width="100px">Tempat Lahir</td>  
+                        <td width="300px">Pangkalpinang</td>
+                    </tr>
+                    <tr style="background-color: #686868;">
+                        <td width="150px">Tanggal Lahir</td>  
+                        <td width="300px">26 Oktober 2006</td>
+                    </tr>
+                    <tr style="background-color: #bebebe;">
+                        <td width="100px">Umur</td>  
+                        <td width="300px">18 Tahun</td>
+                    </tr>
+                    <tr style="background-color: #686868;"> 
+                        <td width="100px">Hobi</td>  
+                        <td width="300px">Ngoding</td>
+                    </tr>
+                    <tr>
+                        <td class="aktif" colspan="2">Mahasiswa Aktif ISB ATMA LUHUR</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <div class="footer">
+
+            <footer>&copy;2411500048_ErickOktavianto_TI1B_UTS Pemograman Web</footer>
+
+        </div>
+
+
+    </div>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+
+    const sidebar = document.getElementById('sidebar')
+
+    function toggleSidebar(){
+        sidebar.classList.toggle('show')
+}
+
+        feather.replace();
+    </script>
+</body>
+</html>
