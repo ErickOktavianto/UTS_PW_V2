@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bukutamu.css">
-    <title>WebPribadi | Home</title>
+    <link rel="icon" href="IMG/pasfoto.jpg">
+    <title>WebPribadi | Guest Book</title>
     <script type="text/javascript" src="app.js" defer></script>
     <script src="https://unpkg.com/feather-icons"></script>
 </head>
@@ -84,6 +85,11 @@
     function toggleSidebar(){
         sidebar.classList.toggle('show')
 }
+
+    const button = document.getElementById('submit');
+    button.addEventListener('click', function(){
+        alert("PESAN SUKSES DIKIRIM");
+    });
 
         feather.replace();
 

@@ -35,11 +35,12 @@
 
 .sidebar{
     height: 100%;
-    top: 50.4px;
+    top: 86px;
     position: sticky;
     align-self: start;
     grid-area: sidebar;
     background-color: #404040;
+
 }
 
 
@@ -119,9 +120,9 @@
 }
 
 .content-form{
-    margin:  100px auto;
+    margin:  20px auto;
     width: 600px;
-    height: 730px;
+    height: 750px;
     background: rgb(1,61,163);
     background: linear-gradient(180deg, rgba(1,61,163,1) 6%, rgba(55,55,226,1) 39%, rgba(0,212,255,1) 97%);
     border: 2px solid white;
@@ -158,6 +159,8 @@
     height: 40px;
     border: 3px solid black;
     border-radius: 20px;
+    padding: 5px;
+    font-size: 25px;
 }
 
 .form-input textarea{
@@ -167,6 +170,8 @@
     height: 230px;
     border: 3px solid black;
     border-radius: 20px;
+    padding: 5px;
+    font-size:25px ;
 }
 
 

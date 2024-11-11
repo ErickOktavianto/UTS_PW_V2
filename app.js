@@ -17,7 +17,8 @@ function toggleSidebar(){
     sidebar.classList.toggle('show')
 }
 
-const button = document.getElementById('submit');
-button.addEventListener('click', function(){
-    alert("PESAN SUKSES DIKIRIM");
-});
+const dropdown = document.getElementById('dropdown')
+
+function toggleDropdown(){
+    dropdown.classList.toggle('show')
+}
